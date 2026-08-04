@@ -1,0 +1,200 @@
+AlertDate,KPI,Severity,Rank,Cause,Probability,Evidence,Detail
+2010-12-07,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2010-12-22,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 18.80% vs 7d avg 5.79%,Check ChannelClean distribution in sessions
+2010-12-22,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2010-12-22,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2010-12-22,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Wednesday
+2010-12-22,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-01-05,Profit,Medium,1,Elevated Refunds / Returns,0.373,"Refunds in last 7d: £35,276 vs prior 14d avg period",Lift ≈ 441.1%
+2011-01-05,Profit,Medium,2,Specific SKU Return Spike,0.216,"Top return SKUs: AMAZONFEE, 85071A, 72802B","Top SKU refund volume £33,342"
+2011-01-05,Profit,Medium,3,Order Volume Decline,0.176,Orders in window lower than baseline,Recent unique invoices: 133
+2011-01-05,Profit,Medium,4,Supplier Price / Mix Change,0.137,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-01-05,RefundRate,High,1,Concentrated on SKU AMAZONFEE,0.302,"£33,342 refunded",Investigate product quality / description mismatch
+2011-01-05,RefundRate,High,2,Return Reason: Wrong Item,0.241,28% of recent returns,Count in 3-day window: 28
+2011-01-05,RefundRate,High,3,Return Reason: Damaged,0.233,27% of recent returns,Count in 3-day window: 27
+2011-01-05,RefundRate,High,4,Return Reason: Changed Mind,0.224,26% of recent returns,Count in 3-day window: 26
+2011-01-05,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-01-10,InventoryInconsistency,Medium,1,Warehouse count process failure or system sync lag,0.55,Negative or missing OnHandQty spikes,Check WH-London vs WH-North naming consistency
+2011-01-10,InventoryInconsistency,Medium,2,Unrecorded returns put back into stock incorrectly,0.3,High return volume + inventory mismatch,Reconcile returns_clean with inventory snapshots
+2011-01-10,InventoryInconsistency,Medium,3,Theft / shrinkage or data entry error,0.15,Persistent negative stock,Physical cycle count recommended
+2011-01-11,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-01-18,Profit,Medium,1,Elevated Refunds / Returns,0.405,"Refunds in last 7d: £79,364 vs prior 14d avg period",Lift ≈ 96.9%
+2011-01-18,Profit,Medium,2,Specific SKU Return Spike,0.285,"Top return SKUs: 23166, 84078A, 22423","Top SKU refund volume £77,184"
+2011-01-18,Profit,Medium,3,Supplier Price / Mix Change,0.181,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-01-18,Profit,Medium,4,Unfavourable Product Mix,0.129,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-01-18,RefundRate,Medium,1,Concentrated on SKU 23166,0.326,"£77,184 refunded",Investigate product quality / description mismatch
+2011-01-18,RefundRate,Medium,2,Return Reason: Damaged,0.321,34% of recent returns,Count in 3-day window: 10
+2011-01-18,RefundRate,Medium,3,Return Reason: Wrong Item,0.225,24% of recent returns,Count in 3-day window: 7
+2011-01-18,RefundRate,Medium,4,Return Reason: Changed Mind,0.128,14% of recent returns,Count in 3-day window: 4
+2011-01-18,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-01-31,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 10.93% vs 7d avg 4.13%,Check ChannelClean distribution in sessions
+2011-01-31,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-01-31,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-01-31,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Monday
+2011-02-11,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 34.17% vs 7d avg 7.35%,Check ChannelClean distribution in sessions
+2011-02-11,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-02-11,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-02-11,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Friday
+2011-02-11,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-02-21,RefundRate,High,1,Concentrated on SKU AMAZONFEE,0.337,"£10,834 refunded",Investigate product quality / description mismatch
+2011-02-21,RefundRate,High,2,Return Reason: Damaged,0.232,24% of recent returns,Count in 3-day window: 21
+2011-02-21,RefundRate,High,3,Return Reason: Changed Mind,0.221,23% of recent returns,Count in 3-day window: 20
+2011-02-21,RefundRate,High,4,Return Reason: Wrong Item,0.21,22% of recent returns,Count in 3-day window: 19
+2011-03-17,ConversionRate,Medium,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 5.56% vs 7d avg 3.18%,Check ChannelClean distribution in sessions
+2011-03-17,ConversionRate,Medium,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-03-17,ConversionRate,Medium,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-03-17,ConversionRate,Medium,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Thursday
+2011-03-18,RefundRate,High,1,Concentrated on SKU AMAZONFEE,0.333,"£10,918 refunded",Investigate product quality / description mismatch
+2011-03-18,RefundRate,High,2,Return Reason: Damaged,0.267,28% of recent returns,Count in 3-day window: 34
+2011-03-18,RefundRate,High,3,Return Reason: Changed Mind,0.22,23% of recent returns,Count in 3-day window: 28
+2011-03-18,RefundRate,High,4,Return Reason: Wrong Item,0.181,19% of recent returns,Count in 3-day window: 23
+2011-03-28,Profit,Medium,1,Elevated Refunds / Returns,0.36,"Refunds in last 7d: £5,715 vs prior 14d avg period",Lift ≈ -74.6%
+2011-03-28,Profit,Medium,2,Specific SKU Return Spike,0.306,"Top return SKUs: M, 22423, AMAZONFEE","Top SKU refund volume £6,079"
+2011-03-28,Profit,Medium,3,Supplier Price / Mix Change,0.195,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-03-28,Profit,Medium,4,Unfavourable Product Mix,0.139,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-03-28,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 12.96% vs 7d avg 4.90%,Check ChannelClean distribution in sessions
+2011-03-28,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-03-28,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-03-28,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Monday
+2011-03-28,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-04-04,RefundRate,Medium,1,Concentrated on SKU M,0.326,"£6,091 refunded",Investigate product quality / description mismatch
+2011-04-04,RefundRate,Medium,2,Return Reason: Changed Mind,0.3,32% of recent returns,Count in 3-day window: 28
+2011-04-04,RefundRate,Medium,3,Return Reason: Damaged,0.214,23% of recent returns,Count in 3-day window: 20
+2011-04-04,RefundRate,Medium,4,Return Reason: Wrong Item,0.161,17% of recent returns,Count in 3-day window: 15
+2011-04-15,Profit,Medium,1,Elevated Refunds / Returns,0.366,"Refunds in last 7d: £4,637 vs prior 14d avg period",Lift ≈ -77.4%
+2011-04-15,Profit,Medium,2,Specific SKU Return Spike,0.303,"Top return SKUs: D, M, 22423","Top SKU refund volume £1,868"
+2011-04-15,Profit,Medium,3,Supplier Price / Mix Change,0.193,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-04-15,Profit,Medium,4,Unfavourable Product Mix,0.138,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-04-18,Profit,Medium,1,Specific SKU Return Spike,0.378,"Top return SKUs: 85123A, 47566B, 21108","Top SKU refund volume £9,843"
+2011-04-18,Profit,Medium,2,Supplier Price / Mix Change,0.241,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-04-18,Profit,Medium,3,Elevated Refunds / Returns,0.209,"Refunds in last 7d: £25,952 vs prior 14d avg period",Lift ≈ 17.4%
+2011-04-18,Profit,Medium,4,Unfavourable Product Mix,0.172,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-04-18,RefundRate,Medium,1,Concentrated on SKU 21108,0.319,"£6,539 refunded",Investigate product quality / description mismatch
+2011-04-18,RefundRate,Medium,2,Return Reason: Changed Mind,0.254,28% of recent returns,Count in 3-day window: 22
+2011-04-18,RefundRate,Medium,3,Return Reason: Damaged,0.242,27% of recent returns,Count in 3-day window: 21
+2011-04-18,RefundRate,Medium,4,Return Reason: Wrong Item,0.185,20% of recent returns,Count in 3-day window: 16
+2011-04-18,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-04-24,InventoryInconsistency,Medium,1,Warehouse count process failure or system sync lag,0.55,Negative or missing OnHandQty spikes,Check WH-London vs WH-North naming consistency
+2011-04-24,InventoryInconsistency,Medium,2,Unrecorded returns put back into stock incorrectly,0.3,High return volume + inventory mismatch,Reconcile returns_clean with inventory snapshots
+2011-04-24,InventoryInconsistency,Medium,3,Theft / shrinkage or data entry error,0.15,Persistent negative stock,Physical cycle count recommended
+2011-05-03,RefundRate,Medium,1,Concentrated on SKU POST,0.333,"£8,143 refunded",Investigate product quality / description mismatch
+2011-05-03,RefundRate,Medium,2,Return Reason: Damaged,0.272,29% of recent returns,Count in 3-day window: 22
+2011-05-03,RefundRate,Medium,3,Return Reason: Changed Mind,0.222,23% of recent returns,Count in 3-day window: 18
+2011-05-03,RefundRate,Medium,4,Return Reason: Wrong Item,0.173,18% of recent returns,Count in 3-day window: 14
+2011-05-16,Profit,Medium,1,Specific SKU Return Spike,0.387,"Top return SKUs: AMAZONFEE, M, BANK CHARGES","Top SKU refund volume £12,883"
+2011-05-16,Profit,Medium,2,Supplier Price / Mix Change,0.246,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-05-16,Profit,Medium,3,Elevated Refunds / Returns,0.191,"Refunds in last 7d: £20,911 vs prior 14d avg period",Lift ≈ 12.0%
+2011-05-16,Profit,Medium,4,Unfavourable Product Mix,0.176,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-05-16,RefundRate,Medium,1,Concentrated on SKU AMAZONFEE,0.323,"£12,883 refunded",Investigate product quality / description mismatch
+2011-05-16,RefundRate,Medium,2,Return Reason: Damaged,0.246,27% of recent returns,Count in 3-day window: 8
+2011-05-16,RefundRate,Medium,3,Return Reason: Changed Mind,0.215,23% of recent returns,Count in 3-day window: 7
+2011-05-16,RefundRate,Medium,4,Return Reason: Wrong Item,0.215,23% of recent returns,Count in 3-day window: 7
+2011-05-16,InventoryInconsistency,Medium,1,Warehouse count process failure or system sync lag,0.55,Negative or missing OnHandQty spikes,Check WH-London vs WH-North naming consistency
+2011-05-16,InventoryInconsistency,Medium,2,Unrecorded returns put back into stock incorrectly,0.3,High return volume + inventory mismatch,Reconcile returns_clean with inventory snapshots
+2011-05-16,InventoryInconsistency,Medium,3,Theft / shrinkage or data entry error,0.15,Persistent negative stock,Physical cycle count recommended
+2011-05-17,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 13.33% vs 7d avg 4.21%,Check ChannelClean distribution in sessions
+2011-05-17,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-05-17,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-05-17,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Tuesday
+2011-05-25,Profit,Medium,1,Elevated Refunds / Returns,0.353,"Refunds in last 7d: £6,717 vs prior 14d avg period",Lift ≈ -71.3%
+2011-05-25,Profit,Medium,2,Specific SKU Return Spike,0.309,"Top return SKUs: M, 22236, 22509","Top SKU refund volume £7,400"
+2011-05-25,Profit,Medium,3,Supplier Price / Mix Change,0.197,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-05-25,Profit,Medium,4,Unfavourable Product Mix,0.141,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-06-05,ConversionRate,Medium,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 9.10% vs 7d avg 4.02%,Check ChannelClean distribution in sessions
+2011-06-05,ConversionRate,Medium,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-06-05,ConversionRate,Medium,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-06-05,ConversionRate,Medium,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Sunday
+2011-06-10,RefundRate,High,1,Concentrated on SKU M,0.341,"£39,570 refunded",Investigate product quality / description mismatch
+2011-06-10,RefundRate,High,2,Return Reason: Wrong Item,0.259,27% of recent returns,Count in 3-day window: 37
+2011-06-10,RefundRate,High,3,Return Reason: Changed Mind,0.238,24% of recent returns,Count in 3-day window: 34
+2011-06-10,RefundRate,High,4,Return Reason: Damaged,0.161,17% of recent returns,Count in 3-day window: 23
+2011-06-10,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-06-24,RefundRate,Medium,1,Concentrated on SKU AMAZONFEE,0.307,"£10,325 refunded",Investigate product quality / description mismatch
+2011-06-24,RefundRate,Medium,2,Return Reason: Changed Mind,0.255,29% of recent returns,Count in 3-day window: 39
+2011-06-24,RefundRate,Medium,3,Return Reason: Damaged,0.229,26% of recent returns,Count in 3-day window: 35
+2011-06-24,RefundRate,Medium,4,Return Reason: Wrong Item,0.209,24% of recent returns,Count in 3-day window: 32
+2011-06-24,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-07-11,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 13.52% vs 7d avg 4.82%,Check ChannelClean distribution in sessions
+2011-07-11,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-07-11,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-07-11,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Monday
+2011-07-13,Profit,Medium,1,Specific SKU Return Spike,0.374,"Top return SKUs: AMAZONFEE, 21439, 21850","Top SKU refund volume £10,881"
+2011-07-13,Profit,Medium,2,Supplier Price / Mix Change,0.238,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-07-13,Profit,Medium,3,Elevated Refunds / Returns,0.218,"Refunds in last 7d: £13,316 vs prior 14d avg period",Lift ≈ -20.1%
+2011-07-13,Profit,Medium,4,Unfavourable Product Mix,0.17,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-07-13,RefundRate,High,1,Concentrated on SKU AMAZONFEE,0.31,"£10,881 refunded",Investigate product quality / description mismatch
+2011-07-13,RefundRate,High,2,Return Reason: Changed Mind,0.24,27% of recent returns,Count in 3-day window: 16
+2011-07-13,RefundRate,High,3,Return Reason: Damaged,0.24,27% of recent returns,Count in 3-day window: 16
+2011-07-13,RefundRate,High,4,Return Reason: Wrong Item,0.21,24% of recent returns,Count in 3-day window: 14
+2011-07-13,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-08-02,Profit,Medium,1,Elevated Refunds / Returns,0.326,"Refunds in last 7d: £13,330 vs prior 14d avg period",Lift ≈ -59.4%
+2011-08-02,Profit,Medium,2,Specific SKU Return Spike,0.322,"Top return SKUs: AMAZONFEE, 15056BL, 22655","Top SKU refund volume £11,297"
+2011-08-02,Profit,Medium,3,Supplier Price / Mix Change,0.205,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-08-02,Profit,Medium,4,Unfavourable Product Mix,0.146,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-08-02,RefundRate,Medium,1,Return Reason: Damaged,0.363,41% of recent returns,Count in 3-day window: 20
+2011-08-02,RefundRate,Medium,2,Concentrated on SKU AMAZONFEE,0.311,"£11,297 refunded",Investigate product quality / description mismatch
+2011-08-02,RefundRate,Medium,3,Return Reason: Changed Mind,0.199,22% of recent returns,Count in 3-day window: 11
+2011-08-02,RefundRate,Medium,4,Return Reason: Wrong Item,0.127,14% of recent returns,Count in 3-day window: 7
+2011-08-11,Profit,Medium,1,Specific SKU Return Spike,0.351,"Top return SKUs: M, 22910, 23157","Top SKU refund volume £9,435"
+2011-08-11,Profit,Medium,2,Elevated Refunds / Returns,0.267,"Refunds in last 7d: £10,894 vs prior 14d avg period",Lift ≈ -36.5%
+2011-08-11,Profit,Medium,3,Supplier Price / Mix Change,0.223,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-08-11,Profit,Medium,4,Unfavourable Product Mix,0.159,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-08-12,InventoryInconsistency,Medium,1,Warehouse count process failure or system sync lag,0.55,Negative or missing OnHandQty spikes,Check WH-London vs WH-North naming consistency
+2011-08-12,InventoryInconsistency,Medium,2,Unrecorded returns put back into stock incorrectly,0.3,High return volume + inventory mismatch,Reconcile returns_clean with inventory snapshots
+2011-08-12,InventoryInconsistency,Medium,3,Theft / shrinkage or data entry error,0.15,Persistent negative stock,Physical cycle count recommended
+2011-08-24,RefundRate,Medium,1,Concentrated on SKU AMAZONFEE,0.348,"£11,190 refunded",Investigate product quality / description mismatch
+2011-08-24,RefundRate,Medium,2,Return Reason: Wrong Item,0.232,23% of recent returns,Count in 3-day window: 21
+2011-08-24,RefundRate,Medium,3,Return Reason: Changed Mind,0.221,22% of recent returns,Count in 3-day window: 20
+2011-08-24,RefundRate,Medium,4,Return Reason: Damaged,0.199,20% of recent returns,Count in 3-day window: 18
+2011-08-31,RefundRate,Medium,1,Concentrated on SKU 22191,0.333,"£2,433 refunded",Investigate product quality / description mismatch
+2011-08-31,RefundRate,Medium,2,Return Reason: Damaged,0.248,26% of recent returns,Count in 3-day window: 39
+2011-08-31,RefundRate,Medium,3,Return Reason: Changed Mind,0.241,25% of recent returns,Count in 3-day window: 38
+2011-08-31,RefundRate,Medium,4,Return Reason: Wrong Item,0.178,19% of recent returns,Count in 3-day window: 28
+2011-08-31,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 31.37% vs 7d avg 6.51%,Check ChannelClean distribution in sessions
+2011-08-31,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-08-31,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-08-31,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Wednesday
+2011-08-31,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-09-20,Profit,Medium,1,Elevated Refunds / Returns,0.329,"Refunds in last 7d: £21,099 vs prior 14d avg period",Lift ≈ 60.7%
+2011-09-20,Profit,Medium,2,Specific SKU Return Spike,0.321,"Top return SKUs: AMAZONFEE, M, BANK CHARGES","Top SKU refund volume £12,950"
+2011-09-20,Profit,Medium,3,Supplier Price / Mix Change,0.204,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-09-20,Profit,Medium,4,Unfavourable Product Mix,0.146,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-09-20,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-10-11,RefundRate,Medium,1,Concentrated on SKU 22273,0.311,"£3,492 refunded",Investigate product quality / description mismatch
+2011-10-11,RefundRate,Medium,2,Return Reason: Changed Mind,0.275,31% of recent returns,Count in 3-day window: 47
+2011-10-11,RefundRate,Medium,3,Return Reason: Damaged,0.251,28% of recent returns,Count in 3-day window: 43
+2011-10-11,RefundRate,Medium,4,Return Reason: Wrong Item,0.164,18% of recent returns,Count in 3-day window: 28
+2011-11-02,InventoryInconsistency,Medium,1,Warehouse count process failure or system sync lag,0.55,Negative or missing OnHandQty spikes,Check WH-London vs WH-North naming consistency
+2011-11-02,InventoryInconsistency,Medium,2,Unrecorded returns put back into stock incorrectly,0.3,High return volume + inventory mismatch,Reconcile returns_clean with inventory snapshots
+2011-11-02,InventoryInconsistency,Medium,3,Theft / shrinkage or data entry error,0.15,Persistent negative stock,Physical cycle count recommended
+2011-11-09,ConversionRate,High,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 11.38% vs 7d avg 4.08%,Check ChannelClean distribution in sessions
+2011-11-09,ConversionRate,High,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-11-09,ConversionRate,High,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-11-09,ConversionRate,High,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Wednesday
+2011-11-14,Profit,Medium,1,Specific SKU Return Spike,0.363,"Top return SKUs: AMAZONFEE, M, CRUK","Top SKU refund volume £14,163"
+2011-11-14,Profit,Medium,2,Elevated Refunds / Returns,0.241,"Refunds in last 7d: £25,764 vs prior 14d avg period",Lift ≈ -27.5%
+2011-11-14,Profit,Medium,3,Supplier Price / Mix Change,0.231,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-11-14,Profit,Medium,4,Unfavourable Product Mix,0.165,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-11-14,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-11-27,ConversionRate,Medium,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 1.51% vs 7d avg 2.53%,Check ChannelClean distribution in sessions
+2011-11-27,ConversionRate,Medium,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-11-27,ConversionRate,Medium,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-11-27,ConversionRate,Medium,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Sunday
+2011-11-30,ConversionRate,Medium,1,Traffic Quality / Channel Mix Shift,0.4,Conversion 4.63% vs 7d avg 2.95%,Check ChannelClean distribution in sessions
+2011-11-30,ConversionRate,Medium,2,Site / Checkout Friction (technical),0.3,Possible page latency or payment issues,Correlate with device mix (Mobile vs Desktop)
+2011-11-30,ConversionRate,Medium,3,Pricing or Promotion Change,0.2,Sudden price increase or promo end,Review UnitPrice distribution day-of vs prior
+2011-11-30,ConversionRate,Medium,4,Seasonality / Day-of-Week Effect,0.1,Weekend or holiday pattern,Wednesday
+2011-12-05,RefundRate,High,1,Concentrated on SKU AMAZONFEE,0.324,"£29,423 refunded",Investigate product quality / description mismatch
+2011-12-05,RefundRate,High,2,Return Reason: Damaged,0.259,28% of recent returns,Count in 3-day window: 23
+2011-12-05,RefundRate,High,3,Return Reason: Changed Mind,0.214,23% of recent returns,Count in 3-day window: 19
+2011-12-05,RefundRate,High,4,Return Reason: Wrong Item,0.203,22% of recent returns,Count in 3-day window: 18
+2011-12-05,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,
+2011-12-09,Profit,Medium,1,Elevated Refunds / Returns,0.452,"Refunds in last 7d: £204,338 vs prior 14d avg period",Lift ≈ 1219.2%
+2011-12-09,Profit,Medium,2,Specific SKU Return Spike,0.262,"Top return SKUs: 23843, AMAZONFEE, CRUK","Top SKU refund volume £168,470"
+2011-12-09,Profit,Medium,3,Supplier Price / Mix Change,0.167,Possible shift in supplier mix or cost,Check supplier_weekly_kpis for price outliers
+2011-12-09,Profit,Medium,4,Unfavourable Product Mix,0.119,Higher share of low-margin categories possible,Inspect CategoryClean profit contribution
+2011-12-09,RefundRate,High,1,Concentrated on SKU 23843,0.328,"£168,470 refunded",Investigate product quality / description mismatch
+2011-12-09,RefundRate,High,2,Return Reason: Wrong Item,0.23,25% of recent returns,Count in 3-day window: 54
+2011-12-09,RefundRate,High,3,Return Reason: Changed Mind,0.23,25% of recent returns,Count in 3-day window: 54
+2011-12-09,RefundRate,High,4,Return Reason: Damaged,0.213,23% of recent returns,Count in 3-day window: 50
+2011-12-09,MultiKPI_Anomaly,High,1,Multi-dimensional anomaly – investigate Profit + Conversion + Refunds together,1.0,Isolation Forest flag,

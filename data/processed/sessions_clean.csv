@@ -1,0 +1,306 @@
+Date,Sessions,UniqueVisitors,Channel,Device,ChannelClean,DeviceClean
+2010-12-01,4317.0,4003,Paid Search,MOBILE,Paid Search,Mobile
+2010-12-02,6608.0,5601,PAID,,Paid Search,Unknown
+2010-12-03,1957.0,1736,Paid Search,Desktop,Paid Search,Desktop
+2010-12-05,3673.0,3233,Email,Tablet,Email,Tablet
+2010-12-06,5758.0,4784,Organic,,Organic,Unknown
+2010-12-07,2909.0,2139,Direct,Mobile,Direct,Mobile
+2010-12-08,3765.0,3451,Paid Search,Mobile,Paid Search,Mobile
+2010-12-09,3870.0,3081,Direct,MOBILE,Direct,Mobile
+2010-12-10,2972.0,2723,Paid Search,Tablet,Paid Search,Tablet
+2010-12-12,1835.0,1741,Social,desktop,Social,Desktop
+2010-12-13,3555.0,3244,Organic,MOBILE,Organic,Mobile
+2010-12-14,2617.0,1997,Organic,Desktop,Organic,Desktop
+2010-12-15,2200.0,1794,Email,MOBILE,Email,Mobile
+2010-12-16,6066.0,4502,organic,Mobile,Organic,Mobile
+2010-12-17,1980.0,1690,Paid Search,Desktop,Paid Search,Desktop
+2010-12-19,760.0,623,Email,Desktop,Email,Desktop
+2010-12-20,1848.0,1608,Email,Mobile,Email,Mobile
+2010-12-21,2460.0,2120,Social,desktop,Social,Desktop
+2010-12-22,117.0,90,,Mobile,Unknown,Mobile
+2010-12-23,1432.0,1259,Social,Mobile,Social,Mobile
+2011-01-04,1811.0,1552,Email,Mobile,Email,Mobile
+2011-01-05,1584.0,1447,Email,Tablet,Email,Tablet
+2011-01-06,519.0,439,Direct,Desktop,Direct,Desktop
+2011-01-07,3028.0,2247,Organic,Desktop,Organic,Desktop
+2011-01-09,2353.0,2213,Email,Tablet,Email,Tablet
+2011-01-10,2353.0,1109,Email,MOBILE,Email,Mobile
+2011-01-11,639.0,448,Organic,Tablet,Organic,Tablet
+2011-01-12,2554.0,1823,Email,Desktop,Email,Desktop
+2011-01-13,2105.0,1671,PAID,,Paid Search,Unknown
+2011-01-14,1509.0,1395,Email,,Email,Unknown
+2011-01-16,1277.0,1002,organic,Mobile,Organic,Mobile
+2011-01-17,1782.0,1575,Direct,Tablet,Direct,Tablet
+2011-01-18,2225.0,1955,Email,desktop,Email,Desktop
+2011-01-19,2225.0,1255,organic,desktop,Organic,Desktop
+2011-01-20,2225.0,1946,organic,MOBILE,Organic,Mobile
+2011-01-21,1681.0,1391,Direct,MOBILE,Direct,Mobile
+2011-01-23,1212.0,1099,Email,desktop,Email,Desktop
+2011-01-24,2701.0,2468,Direct,Tablet,Direct,Tablet
+2011-01-25,2864.0,2452,organic,Tablet,Organic,Tablet
+2011-01-26,3129.0,2372,PAID,desktop,Paid Search,Desktop
+2011-01-27,2270.0,1941,organic,Mobile,Organic,Mobile
+2011-01-28,2965.0,2087,Paid Search,MOBILE,Paid Search,Mobile
+2011-01-30,778.0,590,Direct,MOBILE,Direct,Mobile
+2011-01-31,778.0,1739,organic,Mobile,Organic,Mobile
+2011-02-01,3013.0,2776,Email,desktop,Email,Desktop
+2011-02-02,3074.0,2337,Organic,,Organic,Unknown
+2011-02-03,2651.0,2274,Paid Search,,Paid Search,Unknown
+2011-02-04,1894.0,1497,Social,,Social,Unknown
+2011-02-06,579.0,512,Organic,Desktop,Organic,Desktop
+2011-02-07,1897.0,1396,Organic,,Organic,Unknown
+2011-02-08,2655.0,2062,,MOBILE,Unknown,Mobile
+2011-02-09,1508.0,1299,Paid Search,Mobile,Paid Search,Mobile
+2011-02-10,1508.0,1082,organic,desktop,Organic,Desktop
+2011-02-11,278.0,211,Organic,,Organic,Unknown
+2011-02-13,610.0,521,Organic,Desktop,Organic,Desktop
+2011-02-14,386.0,326,Paid Search,Desktop,Paid Search,Desktop
+2011-02-15,2800.0,2530,Email,MOBILE,Email,Mobile
+2011-02-16,3589.0,2719,Organic,Mobile,Organic,Mobile
+2011-02-17,3144.0,2262,,MOBILE,Unknown,Mobile
+2011-02-18,1226.0,1058,,MOBILE,Unknown,Mobile
+2011-02-20,1092.0,971,Organic,Desktop,Organic,Desktop
+2011-02-21,1516.0,1109,Direct,Mobile,Direct,Mobile
+2011-02-22,2887.0,2080,organic,Mobile,Organic,Mobile
+2011-02-23,1991.0,1531,Paid Search,Tablet,Paid Search,Tablet
+2011-02-24,3290.0,2645,Organic,Tablet,Organic,Tablet
+2011-02-25,2085.0,1860,Social,desktop,Social,Desktop
+2011-02-27,1560.0,1420,,Tablet,Unknown,Tablet
+2011-02-28,2395.0,2258,Email,Tablet,Email,Tablet
+2011-03-01,3279.0,2624,PAID,desktop,Paid Search,Desktop
+2011-03-02,1648.0,1536,Direct,Mobile,Direct,Mobile
+2011-03-03,2496.0,2134,Organic,Desktop,Organic,Desktop
+2011-03-04,2627.0,2207,Organic,Desktop,Organic,Desktop
+2011-03-06,825.0,643,Organic,,Organic,Unknown
+2011-03-07,3072.0,2164,Social,Desktop,Social,Desktop
+2011-03-08,1975.0,1755,Social,Tablet,Social,Tablet
+2011-03-09,1975.0,1254,Direct,Mobile,Direct,Mobile
+2011-03-10,3364.0,2873,Paid Search,Tablet,Paid Search,Tablet
+2011-03-11,1714.0,1545,Paid Search,Mobile,Paid Search,Mobile
+2011-03-13,768.0,601,Paid Search,Tablet,Paid Search,Tablet
+2011-03-14,1908.0,1409,Social,MOBILE,Social,Mobile
+2011-03-15,2928.0,2422,,MOBILE,Unknown,Mobile
+2011-03-16,2313.0,2129,Paid Search,,Paid Search,Unknown
+2011-03-17,1584.0,1135,Email,MOBILE,Email,Mobile
+2011-03-18,1961.0,1387,Paid Search,MOBILE,Paid Search,Mobile
+2011-03-20,2882.0,2474,Email,desktop,Email,Desktop
+2011-03-21,1716.0,1265,Email,Tablet,Email,Tablet
+2011-03-22,1836.0,1722,Paid Search,desktop,Paid Search,Desktop
+2011-03-23,3843.0,3252,organic,MOBILE,Organic,Mobile
+2011-03-24,2648.0,2140,Direct,,Direct,Unknown
+2011-03-25,1631.0,1548,Direct,,Direct,Unknown
+2011-03-27,1645.0,1407,Email,desktop,Email,Desktop
+2011-03-28,656.0,541,PAID,,Paid Search,Unknown
+2011-03-29,2278.0,1723,PAID,Desktop,Paid Search,Desktop
+2011-03-30,3715.0,2665,Direct,Tablet,Direct,Tablet
+2011-03-31,3715.0,1599,,desktop,Unknown,Desktop
+2011-04-01,4632.0,4301,PAID,,Paid Search,Unknown
+2011-04-03,507.0,368,Direct,Mobile,Direct,Mobile
+2011-04-04,2679.0,2443,organic,Mobile,Organic,Mobile
+2011-04-05,3329.0,3046,Direct,MOBILE,Direct,Mobile
+2011-04-06,2435.0,1826,organic,,Organic,Unknown
+2011-04-07,1762.0,1254,Paid Search,Tablet,Paid Search,Tablet
+2011-04-08,3945.0,2797,Paid Search,,Paid Search,Unknown
+2011-04-10,1627.0,1428,Paid Search,Tablet,Paid Search,Tablet
+2011-04-11,1778.0,1647,organic,Desktop,Organic,Desktop
+2011-04-12,2682.0,2483,Paid Search,MOBILE,Paid Search,Mobile
+2011-04-13,3393.0,2542,Email,Desktop,Email,Desktop
+2011-04-14,3295.0,2417,Social,Desktop,Social,Desktop
+2011-04-15,2918.0,2410,organic,Tablet,Organic,Tablet
+2011-04-17,2415.0,1816,PAID,Desktop,Paid Search,Desktop
+2011-04-18,3534.0,3347,Direct,desktop,Direct,Desktop
+2011-04-19,2849.0,2043,Paid Search,Desktop,Paid Search,Desktop
+2011-04-20,2963.0,2207,organic,Tablet,Organic,Tablet
+2011-04-21,2528.0,1981,Paid Search,,Paid Search,Unknown
+2011-04-26,2470.0,2216,organic,Desktop,Organic,Desktop
+2011-04-27,2779.0,2454,Organic,,Organic,Unknown
+2011-04-28,2779.0,1115,Social,Desktop,Social,Desktop
+2011-05-01,468.0,353,Paid Search,Desktop,Paid Search,Desktop
+2011-05-03,2780.0,2368,Organic,Mobile,Organic,Mobile
+2011-05-04,3867.0,3049,Paid Search,MOBILE,Paid Search,Mobile
+2011-05-05,2479.0,1856,,Desktop,Unknown,Desktop
+2011-05-06,5021.0,4392,PAID,Desktop,Paid Search,Desktop
+2011-05-08,3317.0,2424,,MOBILE,Unknown,Mobile
+2011-05-09,2140.0,1558,Direct,,Direct,Unknown
+2011-05-10,5280.0,3973,Organic,desktop,Organic,Desktop
+2011-05-11,3800.0,3150,Paid Search,Tablet,Paid Search,Tablet
+2011-05-12,3788.0,2836,organic,,Organic,Unknown
+2011-05-13,3495.0,2484,Paid Search,Tablet,Paid Search,Tablet
+2011-05-15,1852.0,1308,PAID,Tablet,Paid Search,Tablet
+2011-05-16,1846.0,1442,Email,Mobile,Email,Mobile
+2011-05-17,908.0,693,Organic,Tablet,Organic,Tablet
+2011-05-18,3279.0,2310,Organic,MOBILE,Organic,Mobile
+2011-05-19,3279.0,2411,PAID,MOBILE,Paid Search,Mobile
+2011-05-20,2289.0,1999,Social,Desktop,Social,Desktop
+2011-05-22,3201.0,2921,PAID,desktop,Paid Search,Desktop
+2011-05-23,2107.0,1714,Direct,Desktop,Direct,Desktop
+2011-05-24,4128.0,3686,Paid Search,desktop,Paid Search,Desktop
+2011-05-25,2065.0,1704,Paid Search,desktop,Paid Search,Desktop
+2011-05-26,3895.0,3154,PAID,,Paid Search,Unknown
+2011-05-27,3895.0,589,Social,,Social,Unknown
+2011-05-29,689.0,507,organic,Tablet,Organic,Tablet
+2011-05-31,1438.0,1076,Social,MOBILE,Social,Mobile
+2011-06-01,2363.0,2038,Organic,Tablet,Organic,Tablet
+2011-06-02,2746.0,2348,Paid Search,Mobile,Paid Search,Mobile
+2011-06-03,1733.0,1307,Social,desktop,Social,Desktop
+2011-06-05,769.0,637,Social,Mobile,Social,Mobile
+2011-06-06,2384.0,2262,Email,Mobile,Email,Mobile
+2011-06-07,2998.0,2738,organic,Tablet,Organic,Tablet
+2011-06-08,16389.0,12425,Social,desktop,Social,Desktop
+2011-06-09,2492.0,2352,PAID,MOBILE,Paid Search,Mobile
+2011-06-10,2234.0,1565,PAID,desktop,Paid Search,Desktop
+2011-06-12,1656.0,1415,Social,Desktop,Social,Desktop
+2011-06-13,3077.0,2879,Social,MOBILE,Social,Mobile
+2011-06-14,3250.0,3038,,desktop,Unknown,Desktop
+2011-06-15,1828.0,1604,Email,Mobile,Email,Mobile
+2011-06-16,2796.0,2088,Social,Desktop,Social,Desktop
+2011-06-17,2915.0,2344,,Mobile,Unknown,Mobile
+2011-06-19,10272.0,7299,Social,MOBILE,Social,Mobile
+2011-06-20,4139.0,3038,Paid Search,desktop,Paid Search,Desktop
+2011-06-21,1746.0,1430,Email,MOBILE,Email,Mobile
+2011-06-22,2330.0,1914,PAID,,Paid Search,Unknown
+2011-06-23,4226.0,3652,Social,Mobile,Social,Mobile
+2011-06-24,1793.0,1332,organic,Desktop,Organic,Desktop
+2011-06-26,1032.0,838,PAID,,Paid Search,Unknown
+2011-06-27,2118.0,1623,Organic,MOBILE,Organic,Mobile
+2011-06-28,3215.0,2329,Social,Tablet,Social,Tablet
+2011-06-29,1918.0,1641,,Tablet,Unknown,Tablet
+2011-06-30,2256.0,2045,Email,Desktop,Email,Desktop
+2011-07-01,2420.0,2084,PAID,MOBILE,Paid Search,Mobile
+2011-07-03,1060.0,983,Organic,Desktop,Organic,Desktop
+2011-07-04,2612.0,2077,organic,Desktop,Organic,Desktop
+2011-07-05,2568.0,1843,PAID,Mobile,Paid Search,Mobile
+2011-07-06,2185.0,2071,organic,Mobile,Organic,Mobile
+2011-07-07,2185.0,2829,organic,desktop,Organic,Desktop
+2011-07-08,2074.0,1672,,Tablet,Unknown,Tablet
+2011-07-10,1406.0,1016,Direct,MOBILE,Direct,Mobile
+2011-07-11,503.0,467,Organic,Desktop,Organic,Desktop
+2011-07-12,3144.0,2865,Direct,MOBILE,Direct,Mobile
+2011-07-13,3242.0,2797,Email,Desktop,Email,Desktop
+2011-07-14,2388.0,2107,Email,desktop,Email,Desktop
+2011-07-15,2665.0,2215,Direct,Tablet,Direct,Tablet
+2011-07-17,1740.0,1467,PAID,Mobile,Paid Search,Mobile
+2011-07-18,3933.0,2957,,,Unknown,Unknown
+2011-07-19,3461.0,2930,,desktop,Unknown,Desktop
+2011-07-20,2693.0,2091,organic,MOBILE,Organic,Mobile
+2011-07-21,2434.0,2083,Social,Desktop,Social,Desktop
+2011-07-22,2002.0,1570,Organic,desktop,Organic,Desktop
+2011-07-24,2050.0,1612,organic,MOBILE,Organic,Mobile
+2011-07-25,2050.0,2346,Organic,MOBILE,Organic,Mobile
+2011-07-26,3051.0,2785,Social,Mobile,Social,Mobile
+2011-07-27,2348.0,1952,Paid Search,Desktop,Paid Search,Desktop
+2011-07-28,8391.0,7386,Social,,Social,Unknown
+2011-07-29,2584.0,2288,Social,,Social,Unknown
+2011-07-31,1651.0,1200,Direct,,Direct,Unknown
+2011-08-01,1242.0,1121,PAID,Mobile,Paid Search,Mobile
+2011-08-02,1498.0,1147,Organic,MOBILE,Organic,Mobile
+2011-08-03,3854.0,3331,Social,,Social,Unknown
+2011-08-04,2378.0,1749,organic,Desktop,Organic,Desktop
+2011-08-05,1899.0,1611,Social,Tablet,Social,Tablet
+2011-08-07,1899.0,1183,Paid Search,desktop,Paid Search,Desktop
+2011-08-08,2274.0,1653,Organic,desktop,Organic,Desktop
+2011-08-09,1355.0,1277,PAID,MOBILE,Paid Search,Mobile
+2011-08-10,1456.0,1342,,desktop,Unknown,Desktop
+2011-08-11,3524.0,2531,Organic,Desktop,Organic,Desktop
+2011-08-12,2431.0,2017,organic,MOBILE,Organic,Mobile
+2011-08-14,1440.0,1159,Paid Search,Mobile,Paid Search,Mobile
+2011-08-15,1991.0,1449,Organic,,Organic,Unknown
+2011-08-16,2700.0,2032,PAID,Desktop,Paid Search,Desktop
+2011-08-17,1524.0,1446,,,Unknown,Unknown
+2011-08-18,2445.0,1797,PAID,MOBILE,Paid Search,Mobile
+2011-08-19,2771.0,2508,organic,Mobile,Organic,Mobile
+2011-08-21,1062.0,771,Direct,,Direct,Unknown
+2011-08-22,1830.0,1302,Direct,Tablet,Direct,Tablet
+2011-08-23,3077.0,2606,Direct,,Direct,Unknown
+2011-08-24,3759.0,3106,PAID,,Paid Search,Unknown
+2011-08-25,4020.0,3363,Direct,Desktop,Direct,Desktop
+2011-08-26,2914.0,2393,Direct,Desktop,Direct,Desktop
+2011-08-28,1948.0,1561,,MOBILE,Unknown,Mobile
+2011-08-30,1730.0,1578,Paid Search,Desktop,Paid Search,Desktop
+2011-08-31,373.0,313,Direct,desktop,Direct,Desktop
+2011-09-01,3882.0,3445,Paid Search,Tablet,Paid Search,Tablet
+2011-09-02,3610.0,2931,Social,desktop,Social,Desktop
+2011-09-04,1706.0,1582,Paid Search,,Paid Search,Unknown
+2011-09-05,1706.0,2457,,desktop,Unknown,Desktop
+2011-09-06,1670.0,1265,Direct,Tablet,Direct,Tablet
+2011-09-07,2003.0,1738,Organic,desktop,Organic,Desktop
+2011-09-08,2821.0,2003,Direct,MOBILE,Direct,Mobile
+2011-09-09,1927.0,1473,Organic,Desktop,Organic,Desktop
+2011-09-11,2337.0,1754,Email,desktop,Email,Desktop
+2011-09-12,3789.0,3042,Social,,Social,Unknown
+2011-09-13,2860.0,2693,PAID,Tablet,Paid Search,Tablet
+2011-09-14,2860.0,2612,Email,,Email,Unknown
+2011-09-15,2979.0,2383,,Desktop,Unknown,Desktop
+2011-09-16,2332.0,1950,organic,,Organic,Unknown
+2011-09-18,1227.0,935,Organic,desktop,Organic,Desktop
+2011-09-19,4010.0,3304,,MOBILE,Unknown,Mobile
+2011-09-20,1792.0,1519,Paid Search,MOBILE,Paid Search,Mobile
+2011-09-21,4022.0,3067,Direct,desktop,Direct,Desktop
+2011-09-22,3027.0,2729,,desktop,Unknown,Desktop
+2011-09-23,4023.0,2893,PAID,Mobile,Paid Search,Mobile
+2011-09-25,4337.0,3425,Paid Search,MOBILE,Paid Search,Mobile
+2011-09-26,4337.0,3347,Email,MOBILE,Email,Mobile
+2011-09-27,4661.0,4178,Email,Desktop,Email,Desktop
+2011-09-28,2208.0,1581,organic,Tablet,Organic,Tablet
+2011-09-29,4643.0,3400,organic,Mobile,Organic,Mobile
+2011-09-30,3126.0,2934,PAID,,Paid Search,Unknown
+2011-10-02,1236.0,1016,Organic,MOBILE,Organic,Mobile
+2011-10-03,2691.0,2307,Social,MOBILE,Social,Mobile
+2011-10-04,2733.0,2090,PAID,MOBILE,Paid Search,Mobile
+2011-10-05,5450.0,4920,Social,MOBILE,Social,Mobile
+2011-10-06,7209.0,6435,Paid Search,,Paid Search,Unknown
+2011-10-07,3779.0,3333,organic,Mobile,Organic,Mobile
+2011-10-09,1503.0,1089,Paid Search,Mobile,Paid Search,Mobile
+2011-10-10,3993.0,2953,,Desktop,Unknown,Desktop
+2011-10-11,3326.0,2575,,desktop,Unknown,Desktop
+2011-10-12,4321.0,3415,Direct,Tablet,Direct,Tablet
+2011-10-13,3925.0,3250,Social,MOBILE,Social,Mobile
+2011-10-14,4403.0,3182,Email,MOBILE,Email,Mobile
+2011-10-16,1717.0,1490,Paid Search,Desktop,Paid Search,Desktop
+2011-10-17,5244.0,4157,Paid Search,Desktop,Paid Search,Desktop
+2011-10-18,3319.0,2466,Paid Search,desktop,Paid Search,Desktop
+2011-10-19,3319.0,2433,Paid Search,,Paid Search,Unknown
+2011-10-20,4834.0,3727,,Desktop,Unknown,Desktop
+2011-10-21,1983.0,1523,Organic,Desktop,Organic,Desktop
+2011-10-23,1198.0,1116,Direct,Desktop,Direct,Desktop
+2011-10-24,4665.0,3625,Social,Mobile,Social,Mobile
+2011-10-25,2994.0,2773,Organic,Desktop,Organic,Desktop
+2011-10-26,2431.0,2066,Social,Desktop,Social,Desktop
+2011-10-27,6162.0,5096,,Desktop,Unknown,Desktop
+2011-10-28,2083.0,1572,Social,Desktop,Social,Desktop
+2011-10-30,5499.0,3872,Organic,MOBILE,Organic,Mobile
+2011-10-31,2911.0,2612,,,Unknown,Unknown
+2011-11-01,4618.0,3783,PAID,MOBILE,Paid Search,Mobile
+2011-11-02,3313.0,2815,Organic,,Organic,Unknown
+2011-11-03,3594.0,2745,Organic,Tablet,Organic,Tablet
+2011-11-04,5113.0,3776,Social,Desktop,Social,Desktop
+2011-11-06,5113.0,2014,Social,desktop,Social,Desktop
+2011-11-07,3965.0,3474,organic,Tablet,Organic,Tablet
+2011-11-08,5704.0,4938,,Desktop,Unknown,Desktop
+2011-11-09,1116.0,966,,Mobile,Unknown,Mobile
+2011-11-10,4623.0,3678,,Mobile,Unknown,Mobile
+2011-11-11,4890.0,3503,Paid Search,,Paid Search,Unknown
+2011-11-13,3074.0,2464,,Tablet,Unknown,Tablet
+2011-11-14,4978.0,4090,Organic,desktop,Organic,Desktop
+2011-11-15,5966.0,4882,Social,Tablet,Social,Tablet
+2011-11-16,7760.0,6169,Organic,Mobile,Organic,Mobile
+2011-11-17,6074.0,4256,organic,,Organic,Unknown
+2011-11-18,4196.0,3846,Email,desktop,Email,Desktop
+2011-11-20,3667.0,2799,Direct,Mobile,Direct,Mobile
+2011-11-21,4534.0,3263,,Mobile,Unknown,Mobile
+2011-11-22,6584.0,5108,Email,Tablet,Email,Tablet
+2011-11-23,5031.0,4517,Organic,MOBILE,Organic,Mobile
+2011-11-24,5924.0,4807,Social,desktop,Social,Desktop
+2011-11-25,3978.0,3547,Paid Search,Mobile,Paid Search,Mobile
+2011-11-27,3978.0,2211,Direct,MOBILE,Direct,Mobile
+2011-11-28,4086.0,3215,organic,Tablet,Organic,Tablet
+2011-11-29,4355.0,3061,,,Unknown,Unknown
+2011-11-30,3544.0,3196,PAID,,Paid Search,Unknown
+2011-12-01,5336.0,4190,,Mobile,Unknown,Mobile
+2011-12-02,5693.0,5038,Email,Desktop,Email,Desktop
+2011-12-04,2543.0,2076,Email,MOBILE,Email,Mobile
+2011-12-05,3596.0,3053,PAID,Tablet,Paid Search,Tablet
+2011-12-06,4347.0,3514,Organic,Desktop,Organic,Desktop
+2011-12-07,4456.0,3823,Paid Search,desktop,Paid Search,Desktop
+2011-12-08,5539.0,4461,Paid Search,Mobile,Paid Search,Mobile
+2011-12-09,1126.0,963,Direct,desktop,Direct,Desktop

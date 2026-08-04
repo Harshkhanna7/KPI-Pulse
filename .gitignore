@@ -1,0 +1,11 @@
+# large raw
+data/raw/OnlineRetail.xlsx
+data/raw/online_retail_raw.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.log
+.env
+.venv/
+venv/

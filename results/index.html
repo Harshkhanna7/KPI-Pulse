@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KPI Pulse – Results</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c6570;
+      --accent: #1f4e79;
+      --border: #e2e6eb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 2rem 1rem 4rem;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    header {
+      margin-bottom: 2.2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.4rem;
+    }
+    h1 { font-size: 1.65rem; font-weight: 650; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin-top: 0.35rem; font-size: 0.95rem; }
+    .meta {
+      display: flex; flex-wrap: wrap; gap: 0.6rem 1.4rem;
+      margin-top: 1rem; font-size: 0.88rem; color: var(--muted);
+    }
+    .meta strong { color: var(--text); font-weight: 600; }
+    h2 {
+      font-size: 1.15rem; font-weight: 600; margin: 2rem 0 0.7rem;
+      color: var(--accent);
+    }
+    p.note { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.9rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1.3rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+    }
+    .card .cap {
+      font-size: 0.84rem; color: var(--muted);
+      margin-top: 0.55rem;
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 700px) { .grid2 { grid-template-columns: 1fr; } }
+    table {
+      width: 100%; border-collapse: collapse; font-size: 0.86rem;
+    }
+    th, td {
+      text-align: left; padding: 0.45rem 0.55rem;
+      border-bottom: 1px solid var(--border);
+    }
+    th { background: #eef2f6; font-weight: 600; }
+    .tag {
+      display: inline-block; padding: 0.12rem 0.45rem;
+      border-radius: 4px; font-size: 0.75rem; font-weight: 600;
+    }
+    .tag.high { background: #fde8e8; color: #b42318; }
+    .tag.med { background: #fff4e5; color: #b54708; }
+    footer {
+      margin-top: 2.5rem; padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem; color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>KPI Pulse</h1>
+      <p class="sub">Results from the full pipeline run on UCI Online Retail + extended operational data</p>
+      <div class="meta">
+        <span><strong>Period:</strong> Dec 2010 – Dec 2011</span>
+        <span><strong>Alerts:</strong> 63 (31 High)</span>
+        <span><strong>KPIs tracked:</strong> Profit, Conversion, Refunds, Inventory, Suppliers</span>
+      </div>
+    </header>
+
+    <h2>1. Profit trend & drift points</h2>
+    <p class="note">Daily net profit with 7-day moving average. Red markers show statistically significant profit drops (rolling z-score).</p>
+    <div class="card">
+      <img src="01_profit_drift.png" alt="Profit trend with drift markers" />
+      <p class="cap">Several sharp negative days (e.g. Jan 2011) coincide with refund spikes — see root-cause rankings below.</p>
+    </div>
+
+    <h2>2. Conversion rate vs refund rate</h2>
+    <p class="note">Dual-axis view. Orange markers highlight conversion anomalies. Refund spikes often appear in the same windows as profit drops.</p>
+    <div class="card">
+      <img src="02_conversion_refund.png" alt="Conversion and refund rates" />
+    </div>
+
+    <h2>3. Drift alerts timeline</h2>
+    <p class="note">Every detected event plotted by KPI and severity. High-severity alerts (red) are the ones that would trigger stakeholder notifications.</p>
+    <div class="card">
+      <img src="03_alerts_timeline.png" alt="Alerts timeline" />
+    </div>
+
+    <h2>4. Most common top-ranked root causes</h2>
+    <p class="note">When an alert fires, the system ranks possible causes. This chart shows how often each cause was ranked #1, with average probability.</p>
+    <div class="card">
+      <img src="04_top_root_causes.png" alt="Top root causes" />
+    </div>
+
+    <div class="grid2">
+      <div>
+        <h2>5. Inventory inconsistency</h2>
+        <p class="note">Share of snapshots with negative or missing on-hand quantity.</p>
+        <div class="card">
+          <img src="05_inventory_inconsistency.png" alt="Inventory inconsistency" />
+        </div>
+      </div>
+      <div>
+        <h2>6. Return reasons</h2>
+        <p class="note">After cleaning free-text reason fields.</p>
+        <div class="card">
+          <img src="06_return_reasons.png" alt="Return reasons" />
+        </div>
+      </div>
+    </div>
+
+    <h2>7. KPI summary stats</h2>
+    <div class="card">
+      <img src="07_kpi_stats_table.png" alt="KPI summary statistics" />
+    </div>
+
+    <h2>Sample alerts (first 12)</h2>
+    <div class="card" style="overflow-x:auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>KPI</th>
+            <th>Value</th>
+            <th>Z-Score</th>
+            <th>Direction</th>
+            <th>Severity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>2010-12-22</td><td>ConversionRate</td><td>18.80</td><td>3.37</td><td>Spike</td><td><span class="tag high">High</span></td></tr>
+          <tr><td>2011-01-05</td><td>Profit</td><td>-37,138</td><td>-2.89</td><td>Drop</td><td><span class="tag med">Medium</span></td></tr>
+          <tr><td>2011-01-05</td><td>RefundRate</td><td>48.13%</td><td>3.42</td><td>Spike</td><td><span class="tag high">High</span></td></tr>
+          <tr><td>2011-01-18</td><td>Profit</td><td>-90,715</td><td>-3.12</td><td>Drop</td><td><span class="tag med">Medium</span></td></tr>
+          <tr><td>2011-01-18</td><td>RefundRate</td><td>44.43%</td><td>2.23</td><td>Spike</td><td><span class="tag med">Medium</span></td></tr>
+          <tr><td>2011-02-11</td><td>ConversionRate</td><td>34.17</td><td>3.35</td><td>Spike</td><td><span class="tag high">High</span></td></tr>
+          <tr><td>2011-02-21</td><td>RefundRate</td><td>24.67%</td><td>3.09</td><td>Spike</td><td><span class="tag high">High</span></td></tr>
+          <tr><td>2011-03-14</td><td>InventoryInconsistency</td><td>—</td><td>—</td><td>Spike</td><td><span class="tag med">Medium</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Example root-cause ranking (2011-01-05 Profit drop)</h2>
+    <div class="card" style="overflow-x:auto;">
+      <table>
+        <thead>
+          <tr><th>Rank</th><th>Cause</th><th>Probability</th><th>Evidence</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Elevated Refunds / Returns</td><td>0.37</td><td>Refunds in last 7d much higher than prior window</td></tr>
+          <tr><td>2</td><td>Specific SKU Return Spike</td><td>0.22</td><td>Top return SKUs include AMAZONFEE and related codes</td></tr>
+          <tr><td>3</td><td>Order Volume Decline</td><td>0.18</td><td>Fewer unique invoices in the window</td></tr>
+          <tr><td>4</td><td>Supplier Price / Mix Change</td><td>0.14</td><td>Possible shift in supplier mix or unit cost</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      Generated from the project pipeline · Charts saved in <code>results/</code> · Connect the same CSVs in Tableau for an interactive version (see <code>08_Visualization_Dashboard/Tableau_Dashboard_Guide.md</code>)
+    </footer>
+  </div>
+</body>
+</html>
